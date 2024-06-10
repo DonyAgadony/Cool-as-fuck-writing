@@ -7,7 +7,10 @@ using namespace std;
 void Write(std::string SecretWord);
 int main()
 {
-    Write("Boaz You should kill yourself");
+    std::cout << "Pls Enter A Secret" << "\n";
+    std::string SecretWord;
+    std::cin >> SecretWord;
+    Write(SecretWord);
     return 0;
 }
 void Write(std::string SecretWord)
